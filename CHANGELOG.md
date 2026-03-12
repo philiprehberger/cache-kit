@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Update repository URLs to new ts-prefixed GitHub repo
+
 ## 0.2.0
 
 - Add comprehensive test suite (26 tests covering LRU eviction, TTL, tags, wrap, stats, persistence)

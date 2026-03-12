@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/ts-cache-kit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "In-memory LRU cache with TTL, stale-while-revalidate, and tag invalidation",
   "type": "module",
   "main": "./dist/index.cjs",
