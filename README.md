@@ -1,11 +1,11 @@
-# @philiprehberger/cache-kit
+# @philiprehberger/ts-cache-kit
 
 In-memory LRU cache with TTL, stale-while-revalidate, and tag invalidation.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/cache-kit
+npm install @philiprehberger/ts-cache-kit
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @philiprehberger/cache-kit
 ### Basic
 
 ```ts
-import { createCache } from '@philiprehberger/cache-kit';
+import { createCache } from '@philiprehberger/ts-cache-kit';
 
 const cache = createCache({ maxItems: 1000, defaultTTL: '5m' });
 

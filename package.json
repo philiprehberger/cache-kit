@@ -1,5 +1,5 @@
 {
-  "name": "@philiprehberger/cache-kit",
+  "name": "@philiprehberger/ts-cache-kit",
   "version": "0.2.0",
   "description": "In-memory LRU cache with TTL, stale-while-revalidate, and tag invalidation",
   "type": "module",
@@ -43,11 +43,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/cache-kit.git"
+    "url": "git+https://github.com/philiprehberger/ts-cache-kit.git"
   },
-  "homepage": "https://github.com/philiprehberger/cache-kit#readme",
+  "homepage": "https://github.com/philiprehberger/ts-cache-kit#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/cache-kit/issues"
+    "url": "https://github.com/philiprehberger/ts-cache-kit/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
