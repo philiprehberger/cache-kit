@@ -86,6 +86,42 @@ const data = cache.dump();   // serialize to JSON
 cache.load(data);            // restore from JSON
 ```
 
+## API Reference
+
+### `createCache<V>(options?: CacheOptions): Cache<V>`
+
+| Method | Signature | Description |
+|--------|-----------|-------------|
+| `set` | `(key: string, value: V, opts?: SetOptions) => void` | Store a value. |
+| `get` | `(key: string) => V \| undefined` | Retrieve a value. Returns `undefined` if missing or expired. |
+| `has` | `(key: string) => boolean` | Check if a key exists and is not expired. |
+| `delete` | `(key: string) => boolean` | Remove a key. Returns `true` if it existed. |
+| `clear` | `() => void` | Remove all entries and reset stats. |
+| `invalidateTag` | `(tag: string) => number` | Remove all entries with the given tag. Returns count removed. |
+| `wrap` | `(keyPrefix, fn, opts?) => (...args) => Promise` | Memoize an async function with cache. |
+| `stats` | `() => CacheStats` | Get hit/miss/size statistics. |
+| `dump` | `() => SerializedCache` | Serialize cache contents for persistence. |
+| `load` | `(data: SerializedCache) => void` | Restore cache from serialized data. |
+
+### `CacheOptions`
+
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| `maxItems` | `number` | `Infinity` | Max entries before LRU eviction. |
+| `defaultTTL` | `string \| number` | None | Default TTL for all entries. |
+
+### `SetOptions`
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `ttl` | `string \| number` | Time-to-live (e.g. `"5m"`, `60000`). |
+| `tags` | `string[]` | Tags for group invalidation. |
+| `staleWhileRevalidate` | `string \| number` | Window before expiry where stale data is served while refreshing. |
+
+### Duration Strings
+
+`"100ms"`, `"30s"`, `"5m"`, `"1h"`, `"1d"` — or pass milliseconds as a number.
+
 ## License
 
 MIT
