@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.3
+
+- Add Development section to README
+- Fix CI badge to reference publish.yml
+
 ## 0.3.0
 
 - Add `onRevalidateError` option to `wrap()` for handling stale-while-revalidate failures

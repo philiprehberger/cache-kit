@@ -1,6 +1,6 @@
 # @philiprehberger/cache-kit
 
-[![CI](https://github.com/philiprehberger/cache-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/cache-kit/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/cache-kit/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/cache-kit/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/cache-kit.svg)](https://www.npmjs.com/package/@philiprehberger/cache-kit)
 [![License](https://img.shields.io/github/license/philiprehberger/cache-kit)](LICENSE)
 
@@ -147,6 +147,15 @@ Extends `SetOptions` with:
 ### Duration Strings
 
 `"100ms"`, `"30s"`, `"5m"`, `"1h"`, `"1d"` — or pass milliseconds as a number.
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
