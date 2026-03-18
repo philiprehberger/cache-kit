@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/cache-kit.svg)](https://www.npmjs.com/package/@philiprehberger/cache-kit)
 [![License](https://img.shields.io/github/license/philiprehberger/cache-kit)](LICENSE)
 
-In-memory LRU cache with TTL, stale-while-revalidate, and tag invalidation.
+In-memory LRU cache with TTL, stale-while-revalidate, and tag invalidation
 
 ## Installation
 
