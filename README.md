@@ -1,6 +1,6 @@
 # @philiprehberger/cache-kit
 
-[![CI](https://github.com/philiprehberger/cache-kit/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/cache-kit/actions/workflows/publish.yml)
+[![CI](https://github.com/philiprehberger/cache-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/cache-kit/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/cache-kit.svg)](https://www.npmjs.com/package/@philiprehberger/cache-kit)
 [![License](https://img.shields.io/github/license/philiprehberger/cache-kit)](LICENSE)
 
@@ -102,7 +102,7 @@ const data = cache.dump();   // serialize to JSON
 cache.load(data);            // restore from JSON
 ```
 
-## API Reference
+## API
 
 ### `createCache<V>(options?: CacheOptions): Cache<V>`
 
@@ -146,7 +146,7 @@ Extends `SetOptions` with:
 
 ### Duration Strings
 
-`"100ms"`, `"30s"`, `"5m"`, `"1h"`, `"1d"` — or pass milliseconds as a number.
+`"100ms"`, `"30s"`, `"5m"`, `"1h"`, `"1d"` — or pass milliseconds as a number
 
 
 ## Development
