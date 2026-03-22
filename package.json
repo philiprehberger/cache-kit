@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/cache-kit",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "In-memory LRU cache with TTL, stale-while-revalidate, and tag invalidation",
   "type": "module",
   "main": "./dist/index.cjs",
