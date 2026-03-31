@@ -1,9 +1,8 @@
 # @philiprehberger/cache-kit
 
-[![CI](https://github.com/philiprehberger/ts-cache-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-cache-kit/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/cache-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/cache-kit/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/cache-kit.svg)](https://www.npmjs.com/package/@philiprehberger/cache-kit)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-cache-kit)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/cache-kit)](https://github.com/philiprehberger/cache-kit/commits/main)
 
 In-memory LRU cache with TTL, stale-while-revalidate, and tag invalidation
 
@@ -149,7 +148,6 @@ Extends `SetOptions` with:
 
 `"100ms"`, `"30s"`, `"5m"`, `"1h"`, `"1d"` — or pass milliseconds as a number
 
-
 ## Development
 
 ```bash
@@ -158,6 +156,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/cache-kit)
+
+🐛 [Report issues](https://github.com/philiprehberger/cache-kit/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/cache-kit/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
