@@ -1,8 +1,8 @@
 # @philiprehberger/cache-kit
 
-[![CI](https://github.com/philiprehberger/cache-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/cache-kit/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-cache-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-cache-kit/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/cache-kit.svg)](https://www.npmjs.com/package/@philiprehberger/cache-kit)
-[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/cache-kit)](https://github.com/philiprehberger/cache-kit/commits/main)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/ts-cache-kit)](https://github.com/philiprehberger/ts-cache-kit/commits/main)
 
 In-memory LRU cache with TTL, stale-while-revalidate, and tag invalidation
 
@@ -160,11 +160,11 @@ npm test
 
 If you find this project useful:
 
-⭐ [Star the repo](https://github.com/philiprehberger/cache-kit)
+⭐ [Star the repo](https://github.com/philiprehberger/ts-cache-kit)
 
-🐛 [Report issues](https://github.com/philiprehberger/cache-kit/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+🐛 [Report issues](https://github.com/philiprehberger/ts-cache-kit/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 
-💡 [Suggest features](https://github.com/philiprehberger/cache-kit/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+💡 [Suggest features](https://github.com/philiprehberger/ts-cache-kit/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
 ❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
 
